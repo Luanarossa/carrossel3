@@ -9,8 +9,8 @@ body {
 }
 
 img {
-    max-width: 800px;
-    max-height: 500px;
+    max-width: 800vh;
+    max-height: 500vh;
 }
 
 .slides-list{
