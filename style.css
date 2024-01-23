@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
     text-align: center
-    
 }
 
+
+
 img {
-    max-width: 800vh;
-    max-height: 500vh;
+    max-width: 800px;
+    max-height: 500px;
 }
 
 .slides-list{
@@ -34,9 +35,7 @@ img {
     position: relative;
     left: calc(var(--selected-item) * -100%);
 
-    transform: scale(0);
-    transition: all .2s
-    ease-in-out 0.1s;
+    transition: left 1s;
   }
 
 .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
