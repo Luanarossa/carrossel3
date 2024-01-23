@@ -24,11 +24,10 @@ img {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
 
-    width: 400%;
+    max-width: 700px;
+    max-height: 500px;
 
     --total-items: 4;
-
-	width: calc(var(--total-items) * 100%);
 
     overflow: hidden;
 
